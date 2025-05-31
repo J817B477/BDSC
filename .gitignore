@@ -1,3 +1,7 @@
 .env
 Project/source_data/betaValue_txtFiles/*.txt
 Module4/AUTOMOBILE_SPEEDING_PROPENSITY_GWAS.txt
+Project/source_data/GSE146917_RAW.tar
+Project/source_data/methylation.csv
+Project/source_data/GSE146917_family.soft.gz
+Project/output_files/beta_values.csv
