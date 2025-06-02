@@ -19,8 +19,7 @@
     * contains metadata specifically for the Illumina HumanMethylation450 BeadChip array design (ie., the physical/functional beadchip)
     * in addition to other relevant information, includes associated genes for each CpG site
     * this manifest was collected to map methylation metadata to the numeric matrix contained in the `beta_values.csv`, facilitating analyses like differential methylation studies and in our case methylation clustering analysis
-    
-    * this will be carried out with `betaValue_matrixBuild.ipynb` 
+    * the data merger was carried out with `betaValue_matrixBuild.ipynb` 
 
 1. `GSE146917_RAW.tar`
     * includes a large set of archived files curated by or produced from the study
@@ -34,6 +33,13 @@
 ### Output Data (data built by notebooks)
 1. `beta_values.csv`
     * provides [noob-normalized](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-014-0503-2#:~:text=We%20have%20found%20(see%20below,to%20a%20specific%20statistical%20model.)) beta_values that reflect overall intensity measures for CpG sites
-    * is used for clustering analysis
+    * was the original output of `betaValue_matrix_build`
+    * was used to create `meta_beta_values.csv`
+
+1. `meta_beta_values.csv`
+    * adds metadata to the df from `beta_values.csv`
+    * purpose is to use matadata attributes to filter out non-ideal CpG site objects to support clustering
+    
+
     
 
