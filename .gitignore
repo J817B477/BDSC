@@ -5,3 +5,6 @@ Project/source_data/GSE146917_RAW.tar
 Project/source_data/methylation.csv
 Project/source_data/GSE146917_family.soft.gz
 Project/output_files/beta_values.csv
+Project/project_data.pkl
+Project/source_data/GPL13534-11288_platformManifest.txt
+Project/source_data/StudyAugmented_platformManifest.csv
