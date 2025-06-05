@@ -9,3 +9,6 @@ Project/project_data.pkl
 Project/source_data/GPL13534-11288_platformManifest.txt
 Project/source_data/StudyAugmented_platformManifest.csv
 Project/output_files/meta_beta_values.csv
+Project/output_files/betaValues_annotated_chrFiltered.csv
+Project/output_files/samples_with_metadata.csv
+Project/output_files/sites_of_interest.csv
